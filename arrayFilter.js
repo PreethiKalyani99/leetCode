@@ -1,7 +1,7 @@
 function filter(arr, fn){
     let filteredArray = []
-    arr.forEach((value) => {
-        if(fn(value)){
+    arr.forEach((value,i) => {
+        if(fn(value,i)){
             filteredArray.push(value)
         }
     });
