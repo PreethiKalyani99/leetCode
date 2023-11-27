@@ -8,7 +8,7 @@ function repeatedStringSequence(str){
             result.add(array)
         }
         else{
-            repeatedString.add(array[i])
+            repeatedString.add(array)
         }
     }
     return [...repeatedString]
